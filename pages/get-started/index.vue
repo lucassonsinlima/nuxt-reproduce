@@ -6,6 +6,11 @@
 
 <script>
 export default {
-  name: 'GetStarted'
+  name: 'GetStarted',
+
+  created () {
+    return navigateTo({ path: '/' })
+    // return this.$router.push({ path: '/' })
+  }
 }
 </script>

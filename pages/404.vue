@@ -1,5 +1,7 @@
 <template>
-  <div>Page not Found zzz</div>
+  <section>
+    hello from 404
+  </section>
 </template>
 
 <script>
