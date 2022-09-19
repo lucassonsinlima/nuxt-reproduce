@@ -6,7 +6,11 @@
 
 <script>
 export default {
-  name: 'Schedule'
+  name: 'Schedule',
+
+  created () {
+    return this.$router.push({ path: '/' })
+  }
 }
 </script>
 

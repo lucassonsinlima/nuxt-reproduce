@@ -9,8 +9,8 @@ export default {
   name: 'GetStarted',
 
   created () {
-    return navigateTo({ path: '/' })
-    // return this.$router.push({ path: '/' })
+    // return navigateTo({ path: '/' })
+    return this.$router.push({ path: '/' })
   }
 }
 </script>
